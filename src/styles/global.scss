@@ -1,0 +1,72 @@
+@import "fonts";
+*,
+*::after,
+*::before {
+ box-sizing: border-box;
+}
+
+section {
+ margin-bottom: 160px;
+}
+
+body {
+ position: relative;
+ font-family: $exo2;
+ -webkit-font-smoothing: antialiased;
+ overflow-x: hidden;
+ scroll-behavior: smooth;
+}
+
+button {
+ background-color: transparent;
+ cursor: pointer;
+ outline: none;
+ border: none;
+ font-family: inherit;
+ margin: 0;
+ padding: 0;
+ display: inline-block;
+}
+
+a {
+ text-decoration: none;
+}
+
+.container {
+ max-width: 1430px;
+ margin: 0 auto;
+ padding: 0 15px;
+}
+.wrap {
+ max-width: 2300px;
+ width: 100%;
+ margin: 0 auto;
+}
+
+.row {
+ display: flex;
+ margin-bottom: 10px;
+}
+
+.sb {
+ justify-content: space-between;
+ align-items: flex-end;
+ margin-bottom: 20px;
+}
+
+.section__title {
+ h3 {
+  font-family: $russo;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #121212;
+  span {
+   -webkit-text-fill-color: transparent;
+   -webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: #f15904;
+  }
+ }
+}
